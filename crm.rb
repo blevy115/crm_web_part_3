@@ -11,6 +11,15 @@ get '/add_contacts' do
   erb :add_contacts
 end
 
+get'/contacts' do
+  redirect to ('/')
+end
+
+get '/contacts/:id' do
+  @contact = Contact.find_by(id: params[:id].to_i + 1)
+  erb :show_contact
+end
+
 get '/about' do
   erb :about_me
 end

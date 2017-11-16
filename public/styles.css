@@ -2,7 +2,15 @@ html {
   font-family: Arial,sans-serif;
 }
 
-main li {display:inline-block}
+main li {display: block;
+background-color: gold;
+color: blue;}
+
+main ul {
+  padding-left: 0;
+}
+
+main div li {display:inline-block}
 
 header {
   text-align: center;
