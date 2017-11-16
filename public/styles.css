@@ -2,7 +2,7 @@ html {
   font-family: Arial,sans-serif;
 }
 
-main li {display: block;
+main>ul li {display: block;
 background-color: gold;
 color: blue;}
 
